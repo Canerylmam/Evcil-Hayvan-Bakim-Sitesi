@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+}
+.full-screen-video-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.full-screen-video-container video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background Styles Only */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #DFDFDF;}
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+	input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+input.notfound {
+    border: 2px solid rgba(255, 0, 0, 0.4);
+}
+#map-canvas, #map_canvas {
+    height: 100%;
+    width:100%;
+}
